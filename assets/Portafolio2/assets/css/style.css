@@ -1,0 +1,27 @@
+.link:link {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.link:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.row {
+    justify-content: center;
+}

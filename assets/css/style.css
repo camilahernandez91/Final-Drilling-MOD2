@@ -1,0 +1,86 @@
+/* NAVEGADOR */
+.navbar {
+    background-color: rgb(211, 241, 220);
+}
+
+/* PRESENTACIÓN */
+.imagenFlor {
+    border-radius: 50px;
+}
+
+/* SERVICIOS */
+.lista {
+    list-style-type: circle;
+}
+
+/* PORTAFOLIO */
+.imagenPortafolio {
+    height: 300px;
+}
+
+.linkPortafolio {
+    color: rgb(138, 206, 158);
+    text-decoration: none;
+}
+
+/* CONTACTO */
+.linkContacto {
+    color: rgb(138, 206, 158);
+}
+
+.botonContacto {
+    background-color: rgb(138, 206, 158);
+    border: 0;
+    color: white;
+}
+
+
+/* Pantalla Extra Large (>=1200px) */
+@media(min-width:1200px) {
+
+    .servicios,
+    .habilidades,
+    .col-xl-6 {
+        width: 50%;
+    }
+}
+
+/* Pantalla Large (>=992px) */
+@media(min-width:992px) and (max-width:1199px) {
+
+    .servicios,
+    .habilidades,
+    .col-lg-6 {
+        width: 50%;
+    }
+}
+
+/* Pantalla Medium (>=768px) */
+@media(min-width:768px) and (max-width:991px) {
+
+    .servicios,
+    .habilidades,
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* Pantalla LSmall (>=576px) */
+@media(min-width:576px) and (max-width:767px) {
+
+    .servicios,
+    .habilidades,
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+/* Pantalla Extra small (<576px) */
+@media(max-width:575px) {
+
+    .servicios,
+    .habilidades,
+    .col-xs-12 {
+        width: 100%;
+    }
+}

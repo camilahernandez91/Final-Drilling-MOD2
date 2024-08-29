@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <!-- NAVEGADOR -->
+    <nav class="navbar fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/unnamed.png" alt="Flor" height="40px" class="rounded-5" />
+            </a>
+            <ul class="navbar-nav list-group list-group-horizontal nav-underline ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">ES</a>
+                </li>
+                <li class="nav-item ms-2 me-3">
+                    <a class="nav-link disabled">EN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PRESENTACIÓN -->
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="imagenFlor d-block mx-auto my-5" src="./assets/img/unnamed.png" alt="Flor" height="70" />
+        <h1 class="display-5 fw-bold text-body-emphasis">
+            CAMILA HERNÁNDEZ FLORES
+        </h1>
+        <div class="col-lg-8 mx-auto mb-5">
+            <p class="lead mb-4">
+                Traductora audiovisual inglés-español especializada en subtitulado
+                <br />
+                & Desarrolladora full-stack trainee (&#129310;)
+            </p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+                quia? Quae, possimus doloremque porro sint quisquam ad dolore nam,
+                unde nihil harum, ipsum pariatur modi. Nisi modi nihil perferendis
+                expedita. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tenetur, quia? Quae, possimus doloremque porro sint quisquam ad dolore
+                nam, unde nihil harum, ipsum pariatur modi. Nisi modi nihil
+                perferendis expedita.
+            </p>
+        </div>
+    </div>
+
+    <!-- SERVICIOS Y HABILIDADES -->
+    <div class="container py-5 my-5">
+        <div class="row">
+            <div class="servicios mt-4 p-5">
+                <h5 class="display-6 fw-bold text-body-emphasis" id="titulo">
+                    SERVICIOS
+                </h5>
+                <br />
+                <h6 class="lead">Subtitulado</h6>
+                <ul class="lista">
+                    <li>Transcripción</li>
+                    <li>Pautado</li>
+                    <li>Subtítulos descriptivos (SPS)</li>
+                    <li>Traducción inglés-español</li>
+                </ul>
+                <br />
+                <h6 class="lead">Desarrollo full-stack</h6>
+                <ul class="lista">
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+
+            <div class="habilidades mt-4 p-5">
+                <h5 class="display-6 fw-bold text-body-emphasis" id="titulo">
+                    HABILIDADES//<br />HERRAMIENTAS
+                </h5>
+                <br />
+                <h6 class="lead">Subtitulado</h6>
+                <ul class="lista">
+                    <li>Swift</li>
+                    <li>Ooona</li>
+                </ul>
+                <br />
+                <h6 class="lead">Desarrollo full-stack</h6>
+                <ul class="lista">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <p class="mt-1">(to be continued)</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTAFOLIO -->
+    <div class="container py-5 my-5">
+        <div class="row">
+            <h5 class="display-6 fw-bold text-body-emphasis text-center mb-5">
+                ÚLTIMOS TRABAJOS
+            </h5>
+
+            <div class="card mx-auto my-4 p-0 border-0 shadow" style="width: 35rem">
+                <img src="./assets/img/Screenshot 2024-08-18 144824.png" class="imagenPortafolio card-img-top"
+                    alt="..." />
+                <div class="card-body">
+                    <a href="./index.html" class="linkPortafolio" target="_blank">VISITAR</a>
+                </div>
+            </div>
+
+            <div class="card mx-auto my-4 p-0 border-0 shadow" style="width: 35rem">
+                <img src="./assets/img/Screenshot 2024-08-18 144600.png" class="imagenPortafolio card-img-top"
+                    alt="..." />
+                <div class="card-body">
+                    <a href="./assets/Portafolio2/index2.html" class="linkPortafolio" target="_blank">VISITAR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <div class="col-11 col-md-6 col-lg-5 pt-5 mt-5 mb-4 mx-auto">
+        <h1 class="cambio display-6 fw-bold text-body-emphasis mb-5 text-center">
+            CONVERSEMOS :)
+        </h1>
+        <form class="p-5 rounded-3 shadow" action="">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="" required />
+                <label for="nombre">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="correo" name="correo" placeholder="" required />
+                <label for="correo">Correo</label>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" id="texto" rows="3" name="texto"></textarea>
+                <label for="texto"></label>
+            </div>
+            <button class="botonContacto w-100 py-2 rounded-3" type="submit">
+                Enviar
+            </button>
+            <div class="linkContacto mt-5">
+                <a class="linkContacto" href="https://wa.me/56971729338" target="_blank"><i style="font-size: 25px"
+                        class="fa mx-1">&#xf232;</i></a>
+                <a class="linkContacto" href="https://www.linkedin.com/in/camilahernandezflores/" target="_blank"><i
+                        style="font-size: 25px" class="fa mx-1">&#xf08c;</i></a>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
